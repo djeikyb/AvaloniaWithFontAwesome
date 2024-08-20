@@ -2,14 +2,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:vm="clr-namespace:Example"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        Width="350" Height="600"
+        Width="300" Height="150"
         Position="0 0"
-        x:Class="Example.MainWindow"
-        x:DataType="vm:ViewModel"
-        Title="Example">
+        FontSize="36"
+        x:Class="YourDotnetAssemblyName.MainWindow"
+        Title="MyExampleApp.FontAwesome">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
-        <TextBlock Text="Halooo" />
+        <TextBlock Text="&#xf0f3;"
+                   FontFamily="{StaticResource SomeFontKey}"
+                   FontWeight="Bold" />
+        <TextBlock Text="&#xf1f6;"
+                   FontFamily="{StaticResource SomeFontKey}"
+                   FontWeight="Bold" />
+        <TextBlock Text="&#xf0f3;"
+                   FontFamily="{StaticResource SomeFontKey}" />
+        <TextBlock Text="&#xf1f6;"
+                   FontFamily="{StaticResource SomeFontKey}" />
     </StackPanel>
 </Window>

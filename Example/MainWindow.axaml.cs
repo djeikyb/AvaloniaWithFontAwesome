@@ -1,7 +1,6 @@
-using Avalonia;
 using Avalonia.Controls;
 
-namespace Example;
+namespace YourDotnetAssemblyName;
 
 public partial class MainWindow : Window
 {
