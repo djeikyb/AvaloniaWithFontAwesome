@@ -1,0 +1,9 @@
+/WixInstaller/bin/
+/WixInstaller/obj/
+/artifacts
+.DS_Store
+*.sw[pon]
+.idea/
+*.DotSettings.user
+.vs/
+appsettings.*.json
